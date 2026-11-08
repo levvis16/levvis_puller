@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Tests and profiling
+*.test
+*.out
+coverage.*
+*.prof
+
+# Go workspace
+go.work
+go.work.sum
+
+# Benchmarks
+/bench/results/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
